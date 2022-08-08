@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-path = "Your path reference"
+path = "Resources/alice.png"
 
 if os.path.exists(path):
     img = cv2.imread(path)
